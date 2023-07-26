@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mon CV</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cv-container">
+    <div class="left">
+      <img src="file:///C:/Users/Salldesign/Desktop/Project/WhatsApp Image 2023-03-01 at 22.30.18.jpeg" alt="Hawo">
+      <h2>Profil :</h2>
+      <p>Je suis heureuse de vous présenter ma candidature pour un poste dans votre entreprise,<br> suite à l'obtention de mon diplôme en Licence 3 Génie Informatique et Programmation pour approfondir mes connaissances et compétences en développement de logiciels.<br> Votre entreprise, m'intéresse particulièrement.<br>Je suis très motivée pour rejoindre votre entreprise, <br>car je suis convaincue que je pourrais apprendre énormément en travaillant sur des projets concrets et en collaborant avec des professionnels du secteur.</p>
+      <h2>Coordonnées :</h2>
+      <p>Prénom Nom : Hawo Sall</p>
+      <p>Date de Naissance : Le 01/04/1998 à Thilogne </p>
+      <p>Sexe : Femme</p>
+      <p>Nationalité : Sénégalaise</p>
+      <p>Célibataire Sans Enfant</p>
+      <p>Numéro de téléphone : 78 383 10 84</p>
+      <p>Adresse email : sall98hawo@gmail.com</p>
+      <p>Addresse : Parcelles Assainies U10 </p>
+     
+    </div>
+    <div class="right">
+      <header>
+        <h1> Ingénieur en Informatique et Programmation</h1>
+      </header>
+
+      <section>
+        <h2>Formations</h2>
+        <ul>
+          <li>Licence 3: Génie Informatique et Programmation en Sup'Ingénieur 2022 2023 </li>
+          <br>
+          <li>Licence 2: Informatique et Gestion en Université du métier du développement 2019 2020 </li>
+          <br>
+          <li>Licence 1: Informatique et Gestion en Université du métier du développement 2018 2019 </li>
+          <br>
+          <li>BFEE en 2014 </li>
+        </ul>
+      </section>
+
+      <section>
+        <br>
+        <h2>Compétences</h2>
+        <ul>
+            <li>Bureautique </li>
+            <br>
+            <li>Python Débutante </li>
+            <br>
+            <li>Java Débutante </li>
+            <br>
+            <li>MYSQL </li>
+            <br>
+            <li>Javascript </li>
+            <br>
+            <li>PhP </li>
+            <br>
+            <li>WordPress </li>
+        </ul>
+      </section>
+      <section>
+        <br>
+        <h2>Langages</h2>
+        <ul>
+            <li>Français </li>
+            <br>
+            <li>Anglais: notion d'école </li>
+            <br>
+            <li>Pular </li>
+            <br>
+            <li>Wolof </li>
+        </ul>
+      </section>
+
+      <!-- Bouton de contact -->
+      <br>
+      <button id="contactButton">Contactez-moi</button>
+
+      <!-- Formulaire de contact caché initialement -->
+      <div id="contactForm" style="display: none;">
+        <h2>Contactez-moi</h2>
+        <form id="emailForm" action="mailto:sall98design@gmail.com" method="post" enctype="text/plain">
+          <label for="senderName">Nom :</label>
+          <input type="text" name="senderName" required>
+          <br>
+          <label for="senderEmail">Email :</label>
+          <input type="email" name="senderEmail" required>
+          <br>
+          <label for="message">Message :</label>
+          <textarea name="message" required></textarea>
+          <br>
+          <input type="submit" value="Envoyer">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script JavaScript -->
+  <script>
+    // Fonction pour afficher le formulaire de contact lors du clic sur le bouton
+    function afficherFormulaireContact() {
+      document.getElementById('contactForm').style.display = 'block';
+    }
+
+    // Ajoute un gestionnaire d'événement pour le clic sur le bouton de contact
+    document.getElementById('contactButton').addEventListener('click', afficherFormulaireContact);
+  </script>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script JavaScript -->
+  <script>
+    // Fonction pour afficher le formulaire de contact lors du clic sur le bouton
+    function afficherFormulaireContact() {
+      document.getElementById('contactForm').style.display = 'block';
+    }
+
+    // Ajoute un gestionnaire d'événement pour le clic sur le bouton de contact
+    document.getElementById('contactButton').addEventListener('click', afficherFormulaireContact);
+  </script>
+  
+</body>
+</html>
